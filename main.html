@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main_style.css" />
+    <link rel="icon" href="basic-t-shirt.ico" type="image/x-icon" sizes="16x16" />
+    <title>fashion_test</title>
+  </head>
+  <!-- 바디에 있는거 각각 우클릭 드래그 이미지복사 드래그 키보드 단축키 복사 방지-->
+  <body
+    oncontextmenu="return false"
+    onselect="return false"
+    ondragstart="return false"
+    onkeydown="return false"
+  >
+    <div class="container">
+      <div class="titlebox">
+        <h1>당신은 어느쪽?</h1>
+      </div>
+      <div style="height: 300%">
+        <div id="result">
+          <h3>당신의 성향은???</h3>
+          <div id="img_div">
+            <div id="result_click">
+              <a id="result_btn" href="./result.html" style="visibility: hidden">결과보기!!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="ch1" class="A"><p>시작하려면 클릭하세요</p></div>
+      <div id="ch2" class="A"><p>시작하려면 클릭하세요</p></div>
+    </div>
+    <script src="./src/movement.js" type="module"></script>
+  </body>
+</html>

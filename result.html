@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/result_style.css" />
+    <title>Document</title>
+  </head>
+  <!-- 바디에 있는거 각각 우클릭 드래그 이미지복사 드래그 키보드 단축키 복사 방지-->
+  <body
+    oncontextmenu="return false"
+    onselect="return false"
+    ondragstart="return false"
+    onkeydown="return false"
+  >
+    <div class="container">
+      <div id="img_div" style="height: 60%">
+        <img id="result_img" src="" />
+      </div>
+      <div class="resultTextBox">
+        <p id="your_type"></p>
+        <p id="description"></p>
+      </div>
+    </div>
+    <script type="module" src="./src/result.js"></script>
+  </body>
+</html>

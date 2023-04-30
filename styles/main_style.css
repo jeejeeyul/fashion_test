@@ -1,0 +1,56 @@
+#ch1 {
+  width: 100%;
+  height: 70%;
+  background-color: aqua;
+}
+#ch2 {
+  width: 100%;
+  height: 70%;
+  background-color: pink;
+}
+#ch1 p {
+  margin-top: 12%;
+}
+
+#ch2 p {
+  margin-top: 12%;
+}
+/* 호버를 달아 놓을 수가 없음 폰이라서(올려놓는게 인식이 안됨)*/
+
+.titlebox {
+  width: 100%;
+}
+
+.titlebox h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+#result h3 {
+  text-align: center;
+}
+
+p {
+  font-size: 2em;
+  text-align: center;
+}
+
+img {
+  justify-content: center;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
