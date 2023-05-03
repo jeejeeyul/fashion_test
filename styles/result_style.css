@@ -20,3 +20,8 @@ body {
   height: 100%;
   flex-direction: column;
 }
+
+#title {
+  text-align: center;
+  font-size: 250%;
+}
